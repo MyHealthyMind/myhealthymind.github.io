@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+
+:root {
+    --first: #1866b5;
+    --second: #56a0ebff;
+    --third: #368adfff;
+}
+
+body {
+    background: rgb(239, 243, 248);
+    padding: 0; 
+    margin: 0;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+
+#menu {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    z-index: 200;
+    overflow-y: hidden;
+    height: 85px;
+    width: 100%;
+    padding-left: 40px;
+    align-items: center;
+    top: 0;
+}
+#menucontent {
+    display: flex;
+    align-items: center;
+}
+
+#menu-name {
+    color: var(--first);
+    font-family: "Poppins";
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#menu-link {
+    margin-left: 10px;
+    text-decoration: none;
+    background: var(--second);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins";
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.15s;
+}
+
+
+#menu-link:hover {
+    filter: brightness(110%);
+}
+
+#menu-link {
+    margin-left: 20px;
+}
+
+#menubutton {
+    background-image: url("./images/menu.png");
+    background-repeat: none;
+    background-size: contain;
+    width: 0px;
+    height: 0px;
+    filter: opacity(0%);
+}
+
+#contact {
+    height: 600px;
+    background: #30374f;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#contactheader {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    background: var(--first);
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+    transition: .15s;
+}
+#contactheader:hover {
+    transform: scale(1.05);
+}
+
+#contactleft, #contactmid, #contactright {
+    text-align: center;
+    background: white;
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#header2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    color: var(--first);
+    font-size: 25px;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,111 @@
+#titlearea {
+    margin-top: 85px;
+    height: 400px;
+    background: var(--second);
+    background-position: center;
+    border-radius: 0 0 500px 50%/60px;
+    padding-top: 100px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+#title {
+    background: white;
+    width: 600px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--first);
+    margin-left: 200px;
+    padding-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#line, #line2 {
+    font-size: 1px;
+    background: white;
+    width: 550px;
+    margin-left: 200px;
+    height: 10px;
+}
+#line2 {
+    width: 300px;
+}
+#titleright {
+    margin-left: 100px;
+    width: 600px;
+    padding-top: 40px;
+}
+
+#desc {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+
+#header {
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: "Poppins";
+    color: white;
+    font-weight:700;
+    background: var(--first);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+#list {
+    color: var(--first);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    color: var(--second);
+    font-weight:700;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.15s;
+    margin-top: 20px;
+}
+#list:hover {
+    transform: scale(1.05);
+}
+
+#info {
+    color: var(--second);
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    transition: 0.15s;
+}
+#info:hover {
+    border-bottom: 2px solid var(--second);
+}
+
+#add {
+    color: var(--first);
+    font-size: 17px;
+    margin-left: 20px;
+}
+
