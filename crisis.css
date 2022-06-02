@@ -8,17 +8,17 @@
     z-index: 1;
     position: relative;
     display: flex;
+    justify-content: center;
 }
 #title {
     background: white;
-    width: 600px;
+    width: 400px;
     font-family: "Poppins";
     font-weight: 700;
     font-size: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: var(--first);
-    margin-left: 200px;
     padding-left: 50px;
     border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
@@ -28,14 +28,13 @@
     font-size: 1px;
     background: white;
     width: 550px;
-    margin-left: 200px;
     height: 10px;
 }
 #line2 {
     width: 300px;
 }
 #titleright {
-    margin-left: 100px;
+    margin-left: 0px;
     width: 600px;
     padding-top: 40px;
 }

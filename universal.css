@@ -124,3 +124,13 @@ body {
     margin-top: 50px;
 }
 
+#contacttext {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: var(--first);
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
