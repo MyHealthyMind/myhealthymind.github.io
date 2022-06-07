@@ -44,7 +44,7 @@ body {
 }
 
 #menu-link {
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
     background: var(--second);
     cursor: pointer;
