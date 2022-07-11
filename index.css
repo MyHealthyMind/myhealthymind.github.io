@@ -1,54 +1,37 @@
 #titlearea {
-    margin-top: 85px;
-    height: 400px;
-    background: white;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(31, 98, 170, 0.6)), url(./images/unsplash-hike.jpg);
+    height: 800px;
     background-position: center;
-    border-radius: 0 0 500px 50%/60px;
-    padding-top: 100px;
+    background-size: cover;
+    padding-top: 200px;
     z-index: 1;
     position: relative;
-    display: flex;
-    justify-content: center;
+   
+
 }
 #title {
-    background: var(--second);
-    width: 400px;
+    width: 200px;
     font-family: "Poppins";
     font-weight: 700;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: white;
-    padding-left: 50px;
     border-radius: 20px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 400px;
 }
-
-#line, #line2 {
-    font-size: 1px;
-    background: var(--second);
-    width: 550px;
-    height: 10px;
-}
-#line2 {
-    width: 300px;
-}
-#titleright {
-    margin-left: 0px;
-    width: 600px;
-    padding-top: 40px;
-}
-
 #desc {
+    margin-top: -50px;
     font-size: 25px;
     font-family: "Poppins";
     font-weight: 700;
-    color: var(--first);
+    color: var(--second);
+    margin-left: 400px;
 }
 
 #section {
     z-index: -1;
-    height: 600px;
+    height: 700px;
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -57,7 +40,7 @@
 }
 
 #sectionheader, #sectiontext {
-    color: white;
+    color: var(--first);
     font-family: "Poppins";
     font-weight: 700;
     border-radius: 20px;
@@ -68,19 +51,13 @@
     
 }
 #sectiontext {
-    font-size: 20px;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
     width: 550px;
-    background: var(--second);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
+    font-weight: 600;
     padding-bottom: 40px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 40px;
     transition: .15s;
-}
-#sectiontext:hover {
-    transform: scale(1.05);
 }
 #sectionlink {
     background: var(--third);
@@ -88,7 +65,7 @@
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 100px;
     color: white;
     font-family: "Poppins";
@@ -102,11 +79,11 @@
     filter: brightness(110%);
 }
 #sectiongraphic {
-    width: 300px;
-    height: auto;
-    margin-left: 50px;
+    width: 450px;
+    height: 450px;
+    margin-left: 30px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 100%;
+    object-fit: cover;
     transition: .15s;
 }
 #sectiongraphic:hover {

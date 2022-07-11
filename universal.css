@@ -3,13 +3,13 @@
 
 
 :root {
-    --first: #1866b5;
+    --first: #155696;
     --second: #56a0ebff;
     --third: #368adfff;
 }
 
 body {
-    background: rgb(239, 243, 248);
+    background: rgb(255, 255, 255);
     padding: 0; 
     margin: 0;
     overflow-x: hidden !important;
@@ -18,7 +18,7 @@ body {
 
 
 #menu {
-    background: rgb(255, 255, 255);
+    background: transparent;
     position: fixed;
     display: flex;
     z-index: 200;
@@ -43,31 +43,26 @@ body {
     text-decoration: none;
 }
 
-#menu-link {
+.menu-link {
     margin-left: 5px;
     text-decoration: none;
-    background: var(--second);
     cursor: pointer;
-    color: white;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    color: #2b2b2b;
     font-family: "Poppins";
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 17px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: 0.15s;
-}
-
-
-#menu-link:hover {
-    filter: brightness(110%);
-}
-
-#menu-link {
     margin-left: 20px;
+}
+
+
+.menu-link:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #menubutton {
