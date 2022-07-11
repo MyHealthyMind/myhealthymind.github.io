@@ -6,8 +6,6 @@
     padding-top: 200px;
     z-index: 1;
     position: relative;
-   
-
 }
 #title {
     width: 200px;
@@ -18,7 +16,7 @@
     padding-bottom: 0px;
     color: white;
     border-radius: 20px;
-    margin-left: 400px;
+    margin-left: 20%;
 }
 #desc {
     margin-top: -50px;
@@ -26,7 +24,7 @@
     font-family: "Poppins";
     font-weight: 700;
     color: var(--second);
-    margin-left: 400px;
+    margin-left: 20%;
 }
 
 #section {
