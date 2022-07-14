@@ -1,9 +1,9 @@
 #titlearea {
     margin-top: 85px;
     height: 400px;
-    background: var(--second);
-    background-position: center;
-    border-radius: 0 0 500px 50%/60px;
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(31, 98, 170, 0.4)), url(./images/unsplash-conditions.jpg);
+    background-position: top;
+    background-size: cover;
     padding-top: 100px;
     z-index: 1;
     position: relative;
