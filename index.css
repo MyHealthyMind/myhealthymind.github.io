@@ -3,7 +3,7 @@
     height: 800px;
     background-position: center;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 160px;
     z-index: 1;
     position: relative;
 }
@@ -19,7 +19,7 @@
     margin-left: 20%;
 }
 #desc {
-    margin-top: -50px;
+    margin-top: -40px;
     font-size: 25px;
     font-family: "Poppins";
     font-weight: 700;
