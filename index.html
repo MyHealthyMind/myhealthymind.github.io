@@ -21,6 +21,7 @@
             <a href="resources.html" class="menu-link">Resources</a>
             <a href="./support.html" class="menu-link">Support</a>
             <a href="./covid.html" class="menu-link">COVID-19</a>
+            <a href="./research.html" class="menu-link">Research</a>
             <a href="./crisis.html" class="menu-link" style="background: rgb(255, 92, 92)">Crisis</a>
         </div>
     </div>
@@ -29,9 +30,9 @@
         <div id="titleleft">
             <p id="title">HealthyMind</p>
         </div>
-        <p id="desc">All your mental health needs in one place.</p>
+        <p id="desc">All youth mental health needs in one place.</p>
     </div>
-        <div id="section">
+        <div class="section" id="sectionreverse">
             <div id="sectioninfo">
                 <p id="sectionheader">Mental Health Statistics</p>
                 <p id="sectiontext">This page displays data surrounding mental health in the United States as well as globally.</p>
@@ -40,8 +41,8 @@
             <img id="sectiongraphic" src="./images/unsplash-statistics.jpg">
         </div>
 
-        <div id="section" style="background: var(--first)">
-            <img id="sectiongraphic" src="./images/unsplash-conditions.jpg" style="margin-right: 50px;">
+        <div class="section" style="background: var(--first)">
+            <img id="sectiongraphicr" src="./images/unsplash-conditions.jpg">
             <div id="sectioninfo">
                 <p id="sectionheader" style="color: white;">Mental Health Conditions</p>
                 <p id="sectiontext" style="color: whitesmoke;">This page shows each of the specific mental health conditions and the warning signs that you or someone you know may have a mental health condition.</p>
@@ -49,7 +50,7 @@
             </div>
         </div>
 
-        <div id="section">
+        <div class="section" id="sectionreverse">
             <div id="sectioninfo">
                 <p id="sectionheader">Mental Health Screenings</p>
                 <p id="sectiontext">Click here for information to screen yourself for any issues concerning your mental health. They are quick and easy ways to determine if you are experiencing any symptoms of a mental health condition.</p>
@@ -58,8 +59,8 @@
             <img id="sectiongraphic" src="./images/unsplash-screenings.jpg">
         </div>
 
-        <div id="section" style="background: var(--first)">
-            <img id="sectiongraphic" src="./images/unsplash-resources.jpg" style="margin-right: 50px;">
+        <div class="section" style="background: var(--first)">
+            <img id="sectiongraphicr" src="./images/unsplash-resources.jpg">
             <div id="sectioninfo">
                 <p id="sectionheader" style="color: white;">Resources</p>
                 <p id="sectiontext" style="color: whitesmoke;">Here is a list of apps, websites, and more to aid you with mental health through a variety of tips and information.</p>
@@ -67,7 +68,7 @@
             </div>
         </div>
 
-        <div id="section">
+        <div class="section" id="sectionreverse">
             <div id="sectioninfo">
                 <p id="sectionheader">Finding Support</p>
                 <p id="sectiontext">Here you can find the most effective ways to seek help from others. Remember, you are never alone in this!</p>
@@ -76,8 +77,8 @@
             <img id="sectiongraphic" src="./images/unsplash-support.jpg">
         </div>
 
-        <div id="section" style="background: var(--first)">
-            <img id="sectiongraphic" src="./images/unsplash-covid.jpg" style="margin-right: 50px;">
+        <div class="section" style="background: var(--first)">
+            <img id="sectiongraphicr" src="./images/unsplash-covid.jpg">
             <div id="sectioninfo">
                 <p id="sectionheader" style="color: white;">COVID-19 and Youth Mental Health</p>
                 <p id="sectiontext" style="color: whitesmoke;">
@@ -86,7 +87,7 @@
             </div>
         </div>
 
-        <div id="section">
+        <div class="section" id="sectionreverse">
             <div id="sectioninfo">
                 <p id="sectionheader">Crisis Resources</p>
                 <p id="sectiontext">Information regarding crisis helplines and how to reach them can be found here.</p>
@@ -123,19 +124,24 @@
             </div>
         </div>
 
+        <script src="universal.js"></script>
         <script>
-            setInterval(function () {
+            let width = window.screen.width;
+            if (width > 1024) {
+                setInterval(function () {
                 if (window.scrollY <= 100) {
                     document.getElementById("menu").style = "background-color: transparent";
                     document.getElementById("menu-name").style.color = "var(--second)";
                     const menuLinks = document.querySelectorAll('.menu-link'); menuLinks.forEach(link => { link.style.color = 'whitesmoke' }); 
                 }
                 else {
-                    document.getElementById("menu").style = "background-color: white";
+                    document.getElementById("menu").style = "background-color: whitesmoke";
                     document.getElementById("menu-name").style.color = "var(--first)";
                     const menuLinks = document.querySelectorAll('.menu-link'); menuLinks.forEach(link => { link.style.color = '#2b2b2b' }); 
                 }
             }, 10)
+            }
+            
             
         </script>
 </body>

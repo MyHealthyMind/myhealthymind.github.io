@@ -66,7 +66,7 @@ body {
 }
 
 #menubutton {
-    background-image: url("./images/menu.png");
+    background-image: url("./images/Hamburger\ Menu.png");
     background-repeat: none;
     background-size: contain;
     width: 0px;
@@ -145,3 +145,75 @@ body {
 
 
 
+@media only screen and (max-width: 1024px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    #menu {
+        height: 170px;
+        width: 110vw;
+        display: block;
+        transition: 0.3s;
+        overflow: hidden;
+        padding-top: 50px;
+    }
+    #menucontent {
+        display: flex;
+    }
+    #menubutton {
+        filter: opacity(100%);
+        width: 70px;
+        height: 70px;
+        margin-left: 35vw;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    #menu-name {
+        font-size: 60px;
+        padding-left: 50px;
+    }
+    #tabs {
+        display: block;
+        text-align: center;
+        width: 100vw;
+        position: absolute;
+        margin-left: 0px;
+    }
+    #tabs a, #menu-contact {
+        display: inline-block;
+        font-size: 40px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 30px;
+
+    }
+
+    #contact {
+        width: 100%;
+        display: block;
+        height: 2000px;
+        padding-top: 50px;
+        text-align: center;
+        padding-left: 50px;
+    }
+    #contactmid, #contactleft, #contactmid, #header2, #contacttext, #contactheader, #imagelink {
+        text-align: center;
+        margin-left: 0;
+        width: 95%;
+    }
+    #header2, #contactheader {
+        font-size: 50px;
+    }
+    #contacttext {
+        font-size: 30px;
+    }
+    #imagelink {
+        font-size: 30px;
+    }
+}

@@ -27,7 +27,7 @@
     margin-left: 20%;
 }
 
-#section {
+.section {
     z-index: -1;
     height: 600px;
     padding-bottom: 50px;
@@ -76,7 +76,7 @@
     transform: scale(1.05);
     filter: brightness(110%);
 }
-#sectiongraphic {
+#sectiongraphic, #sectiongraphicr {
     width: 450px;
     height: 450px;
     margin-left: 30px;
@@ -84,7 +84,72 @@
     object-fit: cover;
     transition: .15s;
 }
-#sectiongraphic:hover {
+#sectiongraphicr {
+    margin-right: 30px;
+}
+#sectiongraphic:hover, #sectiongraphicr {
     transform: scale(1.05);
 }
 
+@media only screen and (max-width: 1024px) {
+   
+    #titlearea {
+        height: 1500px;
+        text-align: center;
+        background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(31, 98, 170, 0.6)), url(./images/unsplash-hike.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    #titleleft {
+        margin-top: 400px;
+        text-align: center;
+        width: 100%;
+    }
+    #title {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 100px;
+    }
+    #desc {
+        margin-left: 0;
+        font-size: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .section {
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #sectionreverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sectioninfo {
+        text-align: center;
+    }
+    #sectionheader {
+        font-size: 60px;
+    }
+    #sectiontext {
+        font-size: 30px;
+        width: 100%;    
+    }
+    #sectiongraphic, #sectiongraphicr {
+        margin-right: 0;
+        width: 700px;
+        height: 700px;
+    }
+    #sectionlink {
+        font-size: 35px;
+        padding: 40px;
+    }
+
+
+}
