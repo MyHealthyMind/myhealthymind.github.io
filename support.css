@@ -93,3 +93,44 @@
     width: 650px;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    #section {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 90vw;
+        text-align: center;
+    }
+
+    #titlearea {
+        height: 1000px;
+        display: block;
+        text-align: center;
+    }
+    #title {
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+    }
+    #line2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #titleright {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #desc {
+        font-size: 35px;
+    }
+
+}

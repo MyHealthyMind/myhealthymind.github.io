@@ -1,19 +1,19 @@
 /*menu*/
-var open = false;
+var openm = false;
 function openmenu() {
-    if (open == false) {
+    if (openm == false) {
         document.getElementById("menu").style.height = "1900px";
-        open = true;
+        openm = true;
     }
-    else if (open == true) {
+    else if (openm == true) {
         document.getElementById("menu").style.height = "170px";
-        open = false;
+        openm = false;
     }
 }
 
 setInterval(function() {
     let width = window.screen.width;
-    if (width < 1024 && open == true) {
+    if (width < 1024 && openm == true) {
         document.getElementById("menu").style.height = "1900px";
         document.getElementById("menu").style.backgroundColor = "whitesmoke";
     }
