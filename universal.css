@@ -151,7 +151,7 @@ body {
     }
     #menu {
         height: 170px;
-        width: 110vw;
+        width: 100vw;
         display: block;
         transition: 0.3s;
         overflow: hidden;
@@ -177,7 +177,7 @@ body {
     #tabs {
         display: block;
         text-align: center;
-        width: 100vw;
+        width: 95vw;
         position: absolute;
         margin-left: 0px;
     }
@@ -215,5 +215,8 @@ body {
     }
     #imagelink {
         font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
     }
 }
