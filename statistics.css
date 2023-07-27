@@ -83,6 +83,11 @@
     border-bottom: 3px solid var(--second);
 }
 
+#infographic {
+    width: 650px;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
     html,body{
         overflow-x: hidden;

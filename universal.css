@@ -5,7 +5,7 @@
 :root {
     --first: #155696;
     --second: #56a0ebff;
-    --third: #368adfff;
+    --third: rgb(78, 152, 226);
 }
 
 body {
@@ -124,7 +124,7 @@ body {
 #contacttext, #imagelink {
     font-family: "Poppins";
     font-weight: 600;
-    color: var(--second);
+    color: rgb(152, 187, 216);
     font-size: 16px;
     padding-right: 25px;
     text-align: left;
