@@ -3,7 +3,7 @@
     height: 800px;
     background-position: center;
     background-size: cover;
-    padding-top: 160px;
+    padding-top: 200px;
     z-index: 1;
     position: relative;
 }
@@ -16,7 +16,7 @@
     padding-bottom: 0px;
     color: white;
     border-radius: 20px;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 #desc {
     margin-top: -40px;

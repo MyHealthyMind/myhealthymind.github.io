@@ -160,7 +160,7 @@ body {
         filter: opacity(100%);
         width: 70px;
         height: 70px;
-        margin-left: 35vw;
+        margin-left: 15vw;
         cursor: pointer;
         border: none;
         outline: none;
@@ -203,6 +203,9 @@ body {
         margin-left: 0;
         width: 95%;
     }
+    #contactleft {
+        margin-bottom: 200px;
+    }
     #header2, #contactheader {
         font-size: 50px;
     }
@@ -214,5 +217,6 @@ body {
         text-align: center;
         margin-left: 0;
         width: 100%;
+        margin-right: 40px;
     }
 }
